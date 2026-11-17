@@ -1,0 +1,59 @@
+Return-Path: <bounce@kestre1pay.example>
+Received: from mta1.kestre1pay.example (mta1.kestre1pay.example [203.0.113.52])
+	by mx.devtalk.example with ESMTPS id 4XmC9p1fW3z6;
+	Thu, 12 Nov 2026 08:05:25 -0500 (EST)
+Authentication-Results: mx.devtalk.example;
+	spf=pass (sender IP is 203.0.113.52) smtp.mailfrom=kestre1pay.example;
+	dkim=pass header.d=kestre1pay.example header.s=mail;
+	dmarc=pass (p=REJECT) header.from=kestre1pay.example
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kestre1pay.example;
+	s=mail; t=1794700000; h=from:to:subject:date:message-id:mime-version;
+	bh=XdywQ8xuyG7E6BpT+kTdF0lyMMZfns3fp+WDZA185KQ=;
+	b=RIXjQ4BVrEgSt0QwV+AZ80EIMDf5K6D/utnGtMaCuIY+wMX6yF4BFFuqLR8RFdbv
+	 yMGppYE7aKOu1VDahlJtb4JfillPgf5t0ifrQYaOLCYLTSQRyA8Kdz6XFx6cD3ai
+	 bp+E4QPLMsZa+SfAFf7fvEIqmwZPOVpLixXFlE9i/RI2
+From: "Kestrel Payroll" <notifications@kestre1pay.example>
+Reply-To: payroll-support@kestre1pay.example
+To: "Jordan Tremblay" <jordan.tremblay@devtalk.example>
+Subject: Action needed before the Nov 20 pay run: confirm your direct deposit
+Date: Thu, 12 Nov 2026 08:05:22 -0500
+Message-ID: <dd-verify.88213.DT-1042@kestre1pay.example>
+X-CST8265-Training: Fictional sample for CST8265 Lab 9. Not a real message; all domains use .example.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_07_alt_rRp60mIp9L93"
+
+------=_Part_07_alt_rRp60mIp9L93
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Hi Jordan,
+
+Kestrel is moving to a new banking partner. To make sure your pay
+arrives on November 20, all DevTalk Inc. employees must confirm their
+direct deposit details by 5:00 p.m. on Friday, November 13.
+
+Employees who do not confirm by the deadline will have their pay held
+until the next pay run.
+
+Confirm direct deposit: https://portal.kestre1pay.example/direct-deposit/verify?emp=DT-1042
+
+You will be asked to sign in and re-enter your banking information.
+
+Kestrel Payroll for DevTalk Inc.
+
+------=_Part_07_alt_rRp60mIp9L93
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<body style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.45;color:#111">
+<p>Hi Jordan,</p>
+<p>Kestrel is moving to a new banking partner. To make sure your pay arrives on <strong>November 20</strong>, all DevTalk Inc. employees must confirm their direct deposit details by <strong>5:00 p.m. on Friday, November 13</strong>.</p>
+<p>Employees who do not confirm by the deadline will have their pay <strong>held until the next pay run</strong>.</p>
+<p style="margin:22px 0"><a href="https://portal.kestre1pay.example/direct-deposit/verify?emp=DT-1042" style="background:#7c3aed;color:#fff;padding:10px 18px;border-radius:4px;text-decoration:none">Confirm direct deposit</a></p>
+<p>Or go to <a href="https://portal.kestre1pay.example/direct-deposit/verify?emp=DT-1042">https://portal.kestrelpay.example/direct-deposit</a></p>
+<p>You will be asked to sign in and re-enter your banking information.</p>
+<p>Kestrel Payroll for DevTalk Inc.</p>
+</body></html>
+------=_Part_07_alt_rRp60mIp9L93--

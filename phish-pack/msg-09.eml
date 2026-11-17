@@ -1,0 +1,65 @@
+Return-Path: <security@devtalk.example>
+Received: from mail-int-01.devtalk.example (mail-int-01.devtalk.example [192.0.2.25])
+	by mx.devtalk.example with ESMTPS id 4XmH3k7rN5z9;
+	Thu, 12 Nov 2026 11:40:10 -0500 (EST)
+Authentication-Results: mx.devtalk.example;
+	spf=pass (sender IP is 192.0.2.25) smtp.mailfrom=devtalk.example;
+	dkim=pass header.d=devtalk.example header.s=dt2026;
+	dmarc=pass (p=NONE) header.from=devtalk.example
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=devtalk.example;
+	s=dt2026; t=1794700000; h=from:to:subject:date:message-id:mime-version;
+	bh=1Ubfo+cfyxjezp2Nsy5JXeLKeBE+jSrCMMuHDex2a8o=;
+	b=U/gt2z2ueLPwqfKUqgkVQg7P/ayT4pZf68G0pWHUSuf+hCfiHF1dTew3b9lM+KI9
+	 wkT+GwPPROcOIonkMwXb+6qHq3YCRU4O546LvnYpmBoy3Sz/zNqjYKRkJBIbSd+m
+	 T0SRiI7P1CZTxfP1zoCbDasCer72FI8Cwi5Wf1+2CEVp
+From: "DevTalk IT Security" <security@devtalk.example>
+To: "All Staff" <allstaff@devtalk.example>
+Subject: Phishing alert: fake "Kestrel Payroll" direct deposit emails
+Date: Thu, 12 Nov 2026 11:40:09 -0500
+Message-ID: <alert-2026-11-12.security@devtalk.example>
+X-CST8265-Training: Fictional sample for CST8265 Lab 9. Not a real message; all domains use .example.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_09_alt_cIymP9mNz0Zw"
+
+------=_Part_09_alt_cIymP9mNz0Zw
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Hello everyone,
+
+This morning several staff received emails that look like they come from
+Kestrel Payroll, asking you to "confirm your direct deposit" before the
+November 20 pay run. These emails are not from Kestrel.
+
+- Kestrel never asks for banking details by email. Direct deposit changes
+  are made only through HR.
+- Genuine Kestrel emails come from kestrelpay.example. Check the address
+  carefully: the fake ones use a lookalike.
+- Don't click links in payroll emails. Reach Kestrel through the link on
+  the intranet's HR page instead.
+
+If you received one, use the Report Phish button in your mail client and
+delete it. If you clicked or entered any details, call the Service Desk
+at ext. 4357 right away. You won't be in trouble - reporting quickly is
+what lets us protect your pay.
+
+DevTalk IT Security
+
+------=_Part_09_alt_cIymP9mNz0Zw
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<body style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.45;color:#111">
+<p>Hello everyone,</p>
+<p>This morning several staff received emails that look like they come from Kestrel Payroll, asking you to "confirm your direct deposit" before the November 20 pay run. <strong>These emails are not from Kestrel.</strong></p>
+<ul>
+<li>Kestrel never asks for banking details by email. Direct deposit changes are made only through HR.</li>
+<li>Genuine Kestrel emails come from <strong>kestrelpay.example</strong>. Check the address carefully: the fake ones use a lookalike.</li>
+<li>Don't click links in payroll emails. Reach Kestrel through the link on the intranet's HR page instead.</li>
+</ul>
+<p>If you received one, use the <strong>Report Phish</strong> button in your mail client and delete it. If you clicked or entered any details, call the Service Desk at <strong>ext. 4357</strong> right away. You won't be in trouble - reporting quickly is what lets us protect your pay.</p>
+<p>DevTalk IT Security</p>
+</body></html>
+------=_Part_09_alt_cIymP9mNz0Zw--

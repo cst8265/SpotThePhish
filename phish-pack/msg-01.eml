@@ -1,0 +1,63 @@
+Return-Path: <bounces+k7Q2x9@mailrelay.example>
+Received: from out-14.mailrelay.example (out-14.mailrelay.example [198.51.100.14])
+	by mx.devtalk.example with ESMTPS id 4Xk2Lq0b7Pz1;
+	Mon, 9 Nov 2026 06:02:19 -0500 (EST)
+Received: from app-03.kestrelpay.example (app-03.kestrelpay.example [198.51.100.203])
+	by out-14.mailrelay.example with ESMTPSA id 9f1c22;
+	Mon, 9 Nov 2026 11:02:17 +0000 (UTC)
+Authentication-Results: mx.devtalk.example;
+	spf=pass (sender IP is 198.51.100.14) smtp.mailfrom=mailrelay.example;
+	dkim=pass header.d=kestrelpay.example header.s=k1;
+	dmarc=pass (p=REJECT) header.from=kestrelpay.example
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=kestrelpay.example;
+	s=k1; t=1794700000; h=from:to:subject:date:message-id:mime-version;
+	bh=O2+AP8zyjzeKV0d2yPb3E2OZtm8iaXKFrVCMFxxKLCA=;
+	b=3m+GwDscN077fgBG3YY/1Zd/0J1oofjyIdNROKN5jpirMyEUykYeD92aBQ2r8rs6
+	 4DoV3Vl+mDQqzJHH8YEUv6M+6Y7oDAYdBR75Qai7oQTQnwMlQzG93uC0G1iZp500
+	 XHGUA7DTjx7Ear02PbVA6LnsEPSHDKkNu9pOI3WoU/zL
+From: "Kestrel Payroll" <noreply@kestrelpay.example>
+To: "Jordan Tremblay" <jordan.tremblay@devtalk.example>
+Subject: Your pay statement for Nov 6, 2026 is ready
+Date: Mon, 9 Nov 2026 06:02:17 -0500
+Message-ID: <20261109110217.7731.statements@kestrelpay.example>
+X-CST8265-Training: Fictional sample for CST8265 Lab 9. Not a real message; all domains use .example.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_01_alt_CH9McQnXZjZT"
+
+------=_Part_01_alt_CH9McQnXZjZT
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Hi Jordan,
+
+Your pay statement for the pay period ending November 6, 2026 is ready.
+
+To view it, sign in to Kestrel the way you normally do, then go to
+Pay > Statements.
+
+Kestrel will never ask for your password, MFA code or banking details
+by email. Changes to your direct deposit can only be made by your
+employer's HR team.
+
+Kestrel Payroll for DevTalk Inc.
+https://www.kestrelpay.example
+
+You are receiving this notice because DevTalk Inc. uses Kestrel Payroll.
+
+------=_Part_01_alt_CH9McQnXZjZT
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<body style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.45;color:#111">
+<p>Hi Jordan,</p>
+<p>Your pay statement for the pay period ending <strong>November 6, 2026</strong> is ready.</p>
+<p>To view it, sign in to Kestrel the way you normally do, then go to <strong>Pay &rsaquo; Statements</strong>.</p>
+<p>Kestrel will never ask for your password, MFA code or banking details by email.
+Changes to your direct deposit can only be made by your employer's HR team.</p>
+<p>Kestrel Payroll for DevTalk Inc.<br>
+<a href="https://www.kestrelpay.example">https://www.kestrelpay.example</a></p>
+<p style="font-size:12px;color:#666">You are receiving this notice because DevTalk Inc. uses Kestrel Payroll.</p>
+</body></html>
+------=_Part_01_alt_CH9McQnXZjZT--

@@ -1,0 +1,73 @@
+Return-Path: <mailer@notice-hub.example>
+Received: from relay.notice-hub.example (relay.notice-hub.example [203.0.113.140])
+	by mx.devtalk.example with ESMTP id 4XmV2b5gY8z1;
+	Fri, 13 Nov 2026 07:55:34 -0500 (EST)
+Authentication-Results: mx.devtalk.example;
+	spf=pass (sender IP is 203.0.113.140) smtp.mailfrom=notice-hub.example;
+	dkim=none (message not signed);
+	dmarc=fail (p=NONE dis=NONE) header.from=devtalk.example
+From: "DevTalk IT Service Desk" <servicedesk@devtalk.example>
+To: jordan.tremblay@devtalk.example
+Subject: [Action Required] Re-enroll your MFA by end of day
+Date: Fri, 13 Nov 2026 07:55:30 -0500
+Message-ID: <7d1e0f3a.notice@relay.notice-hub.example>
+X-CST8265-Training: Fictional sample for CST8265 Lab 9. Not a real message; all domains use .example.
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="----=_Part_10_rel_JxGjE996jr0q"; type="multipart/alternative"
+
+------=_Part_10_rel_JxGjE996jr0q
+Content-Type: multipart/alternative; boundary="----=_Part_10_alt_JxGjE996jr0q"
+
+------=_Part_10_alt_JxGjE996jr0q
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Hello,
+
+As part of this weekend's planned security maintenance, all staff must re-enroll
+multi-factor authentication (MFA) on the new authenticator by 5:00 p.m.
+today. Accounts that are not re-enrolled will be locked during the
+maintenance window.
+
+Scan the QR code in this message with your phone's camera, sign in with
+your DevTalk username and password, and enter your current MFA code to
+complete enrollment. It takes less than two minutes.
+
+DevTalk IT Service Desk
+
+------=_Part_10_alt_JxGjE996jr0q
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<body style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.45;color:#111">
+<p>Hello,</p>
+<p>As part of this weekend's planned security maintenance, all staff must <strong>re-enroll multi-factor authentication (MFA)</strong> on the new authenticator by <strong>5:00 p.m. today</strong>. Accounts that are not re-enrolled will be <strong>locked during the maintenance window</strong>.</p>
+<p>Scan the QR code below with your phone's camera, sign in with your DevTalk username and password, and enter your current MFA code to complete enrollment. It takes less than two minutes.</p>
+<p><img src="cid:mfa-qr@devtalk" alt="MFA enrollment QR code" width="180" height="180"></p>
+<p>DevTalk IT Service Desk</p>
+</body></html>
+------=_Part_10_alt_JxGjE996jr0q--
+
+------=_Part_10_rel_JxGjE996jr0q
+Content-Type: image/png; name="enroll.png"
+Content-Transfer-Encoding: base64
+Content-ID: <mfa-qr@devtalk>
+Content-Disposition: inline; filename="enroll.png"
+
+iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2AQAAAADNaUdlAAACfUlEQVR4Xu1ZS4rjMBAtjQRZyjAH
+yFHkm4UcaW6gwFwkBxiQlgaZGt4re7JzrwZU0KLpbsfppiy9X1WCytXaf1zeFvm+f72+2h/Rhn8Q
+VUWK5Cq5DhHFpYiU8dXfT3C/oNoeRETfjyElqiY+ER5tgvouF+oLYeV7XmERPEhft7BKD8kBvlGj
+rZHK7z8LfsvPqOcND/vPmuutyb6UJGVfinQ7kfnxI9qAf+OvthK1Rq32ijYX/H2FAMzHRsz0h/RH
+6useAugwO36SZEpll9Hxc/v5q0jdUzEBnd6/Tvy0ArXMGmkHdIQqWafXf/pXVlhAJvIbvSzrAKld
+1F8O54WRoX7YbgZ/hwP/xf4rSyURYL4j4ywG5cgFfoD5DLWMDTt/Kmr1Uj9wIsd3Aw8uM1zAwf6r
+xobkaUHU4IQ4YU80u/7/w7+o1kjxMfxAjlzgn4RF2QrOAjaHEYDRTvafgYebH8Figge9jI/6UTkp
+YCwYuQ54mYv8BvxHs4DTsyxLoIt0gX9sONhqLmziiRRNODnAP5lLzh7FE0i0Myf1g6pn4CR/eRBu
+9B/5zTT/PItDgjzgH/6q7ZVEUg+ps+fKdbtryro76L/ov/YFziJCUz8BKh/5hzzlKVj+RwtPFy4e
+8g/wsy8oXvITkxO28OwiAarp+/dj25EZoJmMEAhCbIFd+JcteC66AMv/x6WT/HPMnz/+dbiAE/1k
+2peXNrm9QxKI/7Yg/zjRT/gXMQ/BOUcQAJKH/PzpD2N7RRrZfkd4jvrU9zq9/nzqDwsAsy1ye6/S
+1yF4Zfr6P/Nn++TFRkDUHy/5x+bP4dZkCyvaAQ7/w50T3NnnD+H789PL9b/P7y8vURoA//Xu7QAA
+AABJRU5ErkJggg==
+
+------=_Part_10_rel_JxGjE996jr0q--

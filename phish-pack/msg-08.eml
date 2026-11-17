@@ -1,0 +1,57 @@
+Return-Path: <share@xn--rleaf-3ve9a0fb.example>
+Received: from out.xn--rleaf-3ve9a0fb.example (out.xn--rleaf-3ve9a0fb.example [203.0.113.9])
+	by mx.devtalk.example with ESMTPS id 4XmW6h0cT1z4;
+	Fri, 13 Nov 2026 10:12:51 -0500 (EST)
+Authentication-Results: mx.devtalk.example;
+	spf=pass (sender IP is 203.0.113.9) smtp.mailfrom=xn--rleaf-3ve9a0fb.example;
+	dkim=pass header.d=xn--rleaf-3ve9a0fb.example header.s=s1;
+	dmarc=pass (p=QUARANTINE) header.from=xn--rleaf-3ve9a0fb.example
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=xn--rleaf-3ve9a0fb.example;
+	s=s1; t=1794700000; h=from:to:subject:date:message-id:mime-version;
+	bh=i9nLvthSEGjnx3OJI9ni8r4hPKyMFpFmU0oi7uaI5hw=;
+	b=q5F5dATAzVtDggJZIt7VgnZDUf8WFgfEVgLk7UkNa1HmU60K+3/zsbh/Vn9eItPK
+	 s5b73iDrcOHZNXrAhYH5+VXCQNKj7AsDusKQ7UarQMqjxPiS1qnNCW7fep79EfuO
+	 VFqRU7We3Om80fum+e5XM08haupeYBbDHpNcnlSTY/Ng
+From: "Morgan Lee (via PaperLeaf)" <share@xn--rleaf-3ve9a0fb.example>
+Reply-To: "Morgan Lee" <morgan.lee@devtalk.example>
+To: jordan.tremblay@devtalk.example
+Subject: Morgan Lee shared "Q4 Salary Bands - CONFIDENTIAL.xlsx" with you
+Date: Fri, 13 Nov 2026 10:12:48 -0500
+Message-ID: <share-7Fh2kQ.1794582768@xn--rleaf-3ve9a0fb.example>
+X-CST8265-Training: Fictional sample for CST8265 Lab 9. Not a real message; all domains use .example.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_08_alt_5nPaKcUcFsPy"
+
+------=_Part_08_alt_5nPaKcUcFsPy
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Morgan Lee (morgan.lee@devtalk.example) shared a file with you
+
+  Q4 Salary Bands - CONFIDENTIAL.xlsx
+
+  "Jordan - here are the new bands before they go out Monday.
+   Please don't forward."
+
+Open: https://docs.xn--rleaf-3ve9a0fb.example/s/Q4-salary-bands?share=7Fh2kQ
+
+PaperLeaf Docs - You received this because someone shared a file with you.
+
+------=_Part_08_alt_5nPaKcUcFsPy
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<body style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.45;color:#111">
+<div style="font-size:20px;color:#14532d;font-weight:bold;margin-bottom:10px">PaperLeaf Docs</div>
+<p><strong>Morgan Lee</strong> (morgan.lee@devtalk.example) shared a file with you</p>
+<div style="border:1px solid #d1d5db;border-radius:6px;padding:12px 14px;margin:12px 0;max-width:460px">
+<div style="font-weight:bold">&#128196; Q4 Salary Bands - CONFIDENTIAL.xlsx</div>
+<div style="color:#444;margin-top:6px;font-style:italic">"Jordan - here are the new bands before they go out Monday. Please don't forward."</div>
+</div>
+<p style="margin:18px 0"><a href="https://docs.xn--rleaf-3ve9a0fb.example/s/Q4-salary-bands?share=7Fh2kQ" style="background:#15803d;color:#fff;padding:9px 18px;border-radius:4px;text-decoration:none">Open</a></p>
+<p style="font-size:13px">Or open <a href="https://docs.xn--rleaf-3ve9a0fb.example/s/Q4-salary-bands?share=7Fh2kQ">https://docs.paperleaf.example/s/Q4-salary-bands</a></p>
+<p style="font-size:12px;color:#666">PaperLeaf Docs &middot; You received this because someone shared a file with you.</p>
+</body></html>
+------=_Part_08_alt_5nPaKcUcFsPy--

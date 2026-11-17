@@ -1,0 +1,59 @@
+Return-Path: <dana.okafor.devtalk@freemail.example>
+Received: from mail-sor-f41.freemail.example (mail-sor-f41.freemail.example [198.51.100.41])
+	by mx.devtalk.example with ESMTPS id 4XlF7n2kV9z5;
+	Tue, 10 Nov 2026 16:58:14 -0500 (EST)
+Authentication-Results: mx.devtalk.example;
+	spf=pass (sender IP is 198.51.100.41) smtp.mailfrom=freemail.example;
+	dkim=pass header.d=freemail.example header.s=20240101;
+	dmarc=pass (p=NONE) header.from=freemail.example
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=freemail.example;
+	s=20240101; t=1794700000; h=from:to:subject:date:message-id:mime-version;
+	bh=Rv1F5Bw30Kr3uVBGVpktMztn9gIR/Ul2cJUFYtNYJpo=;
+	b=XP3iirv7nFId2C041sh2GApNWUmv4Ir2sPOrewi4+XfKzhufE3boKRzDtXmb79aL
+	 aqohGi5wsNK/AM1HWSAslkVaH4S6D/XEiOzPAYm38TqF80vQbXH6WBe8hCBO3mAi
+	 dsyYA6GknyFJPHZG/3HFWibRpCoP9daSVmqgm/QPcPc6
+From: "Dana Okafor" <dana.okafor.devtalk@freemail.example>
+To: jordan.tremblay@devtalk.example
+Subject: Quick favour
+Date: Tue, 10 Nov 2026 16:58:12 -0500
+Message-ID: <CAF8k2p0Q1x+dO@mail.freemail.example>
+X-CST8265-Training: Fictional sample for CST8265 Lab 9. Not a real message; all domains use .example.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_04_alt_fyMax91RSpeD"
+
+------=_Part_04_alt_fyMax91RSpeD
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Jordan,
+
+Are you at your desk? I'm stuck in back-to-back sessions at the board
+offsite and need a favour handled quietly before 6.
+
+I want to thank a few of our key clients this week. Please buy 6 x $250
+digital gift cards (Snowline Market works), scratch the backs and reply
+with the codes. Keep this between us for now - it's a surprise and I
+don't want it going round the office.
+
+I'll make sure finance reimburses you tomorrow. I can't take calls, so
+just reply here.
+
+Dana
+
+Sent from my phone
+
+------=_Part_04_alt_fyMax91RSpeD
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<body style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.45;color:#111">
+<p>Jordan,</p>
+<p>Are you at your desk? I'm stuck in back-to-back sessions at the board offsite and need a favour handled quietly before 6.</p>
+<p>I want to thank a few of our key clients this week. Please buy 6 x $250 digital gift cards (Snowline Market works), scratch the backs and reply with the codes. Keep this between us for now - it's a surprise and I don't want it going round the office.</p>
+<p>I'll make sure finance reimburses you tomorrow. I can't take calls, so just reply here.</p>
+<p>Dana</p>
+<p style="color:#666">Sent from my phone</p>
+</body></html>
+------=_Part_04_alt_fyMax91RSpeD--

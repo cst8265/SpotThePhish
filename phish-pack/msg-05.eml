@@ -1,0 +1,48 @@
+Return-Path: <x3f9a@vps-2231.cheaphost.example>
+Received: from vps-2231.cheaphost.example (unknown [203.0.113.181])
+	by mx.devtalk.example with ESMTP id 4XlR2s8dK4z7;
+	Wed, 11 Nov 2026 07:32:03 -0500 (EST)
+Authentication-Results: mx.devtalk.example;
+	spf=softfail (sender IP 203.0.113.181 is not authorized) smtp.mailfrom=cheaphost.example;
+	dkim=none (message not signed);
+	dmarc=none (no policy published) header.from=snowline-delivery.example
+From: "Snowline Courier" <notify@snowline-delivery.example>
+Reply-To: claims.snowline@freemail.example
+To: jordan.tremblay@devtalk.example
+Subject: Delivery on hold: customs fee of $2.99 unpaid (ref SN48120377CA)
+Date: Wed, 11 Nov 2026 07:31:56 -0500
+Message-ID: <0b9e1a7c44d2.SN48120377CA@vps-2231.cheaphost.example>
+X-CST8265-Training: Fictional sample for CST8265 Lab 9. Not a real message; all domains use .example.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_05_alt_LnFEPTyIIj9U"
+
+------=_Part_05_alt_LnFEPTyIIj9U
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Snowline Courier
+
+Your parcel SN48120377CA is being held at our Ottawa depot.
+
+An international customs and handling fee of $2.99 CAD has not been paid.
+Pay within 48 hours to schedule delivery. Parcels not claimed will be
+returned to the sender.
+
+Pay fee and schedule delivery: https://snip.example/Xk29pQ
+
+Snowline Courier - Customer Care
+
+------=_Part_05_alt_LnFEPTyIIj9U
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<body style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.45;color:#111">
+<div style="background:#0f766e;color:#fff;padding:10px 14px;font-weight:bold">Snowline Courier</div>
+<p>Your parcel <strong>SN48120377CA</strong> is being held at our Ottawa depot.</p>
+<p>An international customs and handling fee of <strong>$2.99 CAD</strong> has not been paid. Pay within <strong>48 hours</strong> to schedule delivery. Parcels not claimed will be returned to the sender.</p>
+<p style="margin:22px 0"><a href="https://snip.example/Xk29pQ" style="background:#0f766e;color:#fff;padding:10px 18px;border-radius:4px;text-decoration:none">Pay fee and schedule delivery</a></p>
+<p>Snowline Courier - Customer Care</p>
+</body></html>
+------=_Part_05_alt_LnFEPTyIIj9U--

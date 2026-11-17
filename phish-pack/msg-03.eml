@@ -1,0 +1,57 @@
+Return-Path: <servicedesk@devtalk.example>
+Received: from mail-int-01.devtalk.example (mail-int-01.devtalk.example [192.0.2.25])
+	by mx.devtalk.example with ESMTPS id 4XlB0c6sQ2z3;
+	Tue, 10 Nov 2026 14:20:42 -0500 (EST)
+Authentication-Results: mx.devtalk.example;
+	spf=pass (sender IP is 192.0.2.25) smtp.mailfrom=devtalk.example;
+	dkim=pass header.d=devtalk.example header.s=dt2026;
+	dmarc=pass (p=NONE) header.from=devtalk.example
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=devtalk.example;
+	s=dt2026; t=1794700000; h=from:to:subject:date:message-id:mime-version;
+	bh=jSswKueEjg+hZpufGne0h3IfyGs7hSGa105v7odKhjc=;
+	b=mwxuQLSEha7mBcRbTwN2SXWnw8hC63lT4C40IOngvJ6Bo9vLp/25e2J/KFgJk9sB
+	 lX/3/2hCmYaEmG9HXYxfxYyDIPdvKupaxwqEcvymXoyEeArOy9mf/7NhEdQpznKr
+	 9rbZtJE3RvKyiETQ8si2mSs7viXxpPklXCDDonPtIoYU
+From: "DevTalk IT Service Desk" <servicedesk@devtalk.example>
+To: "All Staff" <allstaff@devtalk.example>
+Subject: Planned maintenance: VPN and forum admin console, Sat Nov 14
+Date: Tue, 10 Nov 2026 14:20:41 -0500
+Message-ID: <CHG-2026-1188.servicedesk@devtalk.example>
+X-CST8265-Training: Fictional sample for CST8265 Lab 9. Not a real message; all domains use .example.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_03_alt_COUmNGiWwxKf"
+
+------=_Part_03_alt_COUmNGiWwxKf
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Hello everyone,
+
+The VPN and the DevTalk forum admin console will be unavailable on
+Saturday, November 14, from 10:00 p.m. to 2:00 a.m. while we apply
+security updates (change CHG-2026-1188).
+
+No action is needed from you. The public forum stays online.
+
+Live status: https://status.devtalk.example
+
+As always, the Service Desk will never ask for your password or MFA
+code. Questions? Call ext. 4357 or open a ticket on the intranet.
+
+DevTalk IT Service Desk
+
+------=_Part_03_alt_COUmNGiWwxKf
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<body style="font-family:Arial,Helvetica,sans-serif;font-size:15px;line-height:1.45;color:#111">
+<p>Hello everyone,</p>
+<p>The VPN and the DevTalk forum admin console will be unavailable on <strong>Saturday, November 14, from 10:00 p.m. to 2:00 a.m.</strong> while we apply security updates (change CHG-2026-1188).</p>
+<p>No action is needed from you. The public forum stays online.</p>
+<p>Live status: <a href="https://status.devtalk.example">https://status.devtalk.example</a></p>
+<p>As always, the Service Desk will never ask for your password or MFA code. Questions? Call ext. 4357 or open a ticket on the intranet.</p>
+<p>DevTalk IT Service Desk</p>
+</body></html>
+------=_Part_03_alt_COUmNGiWwxKf--
